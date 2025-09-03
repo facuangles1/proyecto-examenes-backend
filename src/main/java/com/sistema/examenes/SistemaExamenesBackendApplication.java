@@ -29,7 +29,7 @@ public class SistemaExamenesBackendApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-			try{
+		/* 	try{
 				Usuario usuario = new Usuario();
 
 				usuario.setNombre("Christian");
@@ -54,6 +54,6 @@ public class SistemaExamenesBackendApplication implements CommandLineRunner {
 				System.out.println(usuarioGuardado.getUsername());
 			}catch(UsuarioFoundException exception){
 				exception.printStackTrace();
-			}
+			} */
 	}
 }
